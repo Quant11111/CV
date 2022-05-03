@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap");
+
+$font-1: "Nova Round", cursive;
+$font-2: "Dosis", sans-serif;
+$font-3: "Josefin Sans", serif;
+
+// $color-1: #ffffff;
+// $color-2: rgb(230, 141, 134);
+// $color-3: #3f9ec3;
+// $color-4: rgb(247, 146, 146);
+// $color-5: rgb(239, 175, 142);
+// $color-bg: #53cab8;
+// $white: #ddd;
+// $black: #333;
+
+$color-1: #140d27;
+$color-2: rgb(230, 141, 134);
+$color-3: rgba(205, 250, 250, 1);
+$color-4: rgb(247, 220, 103);
+$color-5: rgb(74, 204, 221);
+$color-bg: #ffffff;
+$white: rgba(205, 250, 250, 1);
+$black: #333;
+
+$borderRadius: 25px;
+$shadow: 0 1px 3px #333;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 1rem 0.4rem 0rem 0.4rem;
+  max-width: 12000px;
+  height: 100vh;
+  font-family: $font-1;
+  color: $color-4;
+  //background-color: $color-bg;
+  background: linear-gradient(
+    1deg,
+    rgba(205, 250, 250, 1),
+    rgba(5, 150, 170, 1)
+  );
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
+}
+
+a:visited {
+  color: $black;
+}
+
+.home,
+.knowledge,
+.contact,
+.portfolio {
+  display: flex;
+
+  @media screen and (max-width: 850px) {
+    display: block !important;
+  }
+}
+
+.homeContent,
+.knowledgeContent,
+.contactContent,
+.portfolioContent {
+  margin-left: 0.4rem;
+
+  @media screen and (max-width: 850px) {
+    margin-left: 0 !important;
+  }
+}

@@ -1,0 +1,242 @@
+.portfolio {
+  .portfolioContent {
+    width: 100%;
+    display: grid;
+    height: 95vh;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas:
+      "1"
+      "2";
+  }
+
+  .radioDisplay {
+    min-height: 50px;
+    grid-area: 1;
+    border-radius: $borderRadius;
+    display: flex;
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    background: $color-1;
+    user-select: none;
+    box-shadow: $shadow;
+
+    li {
+      color: $color-3;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      padding: 0 1rem;
+      flex: 1;
+      z-index: 2;
+      @include verticalCenter;
+
+      input[type="radio"] {
+        visibility: hidden;
+        position: relative;
+
+        &:before {
+          content: "";
+          visibility: visible;
+          position: absolute;
+          top: -4px;
+          left: -12px;
+          height: 0.9rem;
+          width: 0.9rem;
+          border-radius: 50%;
+          border: 2px solid $color-4;
+          cursor: pointer;
+          transition: 0.3s;
+        }
+        &:after {
+          content: "";
+          visibility: visible;
+          position: absolute;
+          top: -4px;
+          left: -12px;
+          height: 0.9rem;
+          width: 0.9rem;
+          border-radius: 50%;
+          cursor: pointer;
+          transition: 0.3s;
+          background: $color-4;
+          transform: scale(0);
+          transform-origin: center;
+        }
+      }
+      input:checked:after {
+        transform: scale(1.17) translate(-25%, -25%);
+        top: 2px;
+        left: -6px;
+      }
+      input:checked + label {
+        color: $color-4;
+      }
+      label {
+        cursor: pointer;
+      }
+    }
+  }
+  .projects {
+    margin-top: 2vh;
+    grid-area: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .project {
+      background: $color-1;
+      border-radius: $borderRadius;
+      margin: 0.5rem 0 0 0;
+      text-align: center;
+      width: 32%;
+      max-height: 40vh;
+      padding: 0.3rem;
+      box-shadow: $shadow;
+      display: grid;
+      grid-template-rows: 15% 15% 55% 15%;
+      grid-template-areas:
+        "1"
+        "2"
+        "3"
+        "4";
+    }
+    .icons {
+      grid-area: 1;
+      display: flex;
+      justify-content: center;
+      @include verticalCenter;
+
+      i {
+        font-size: 1.4rem;
+        padding: 0 0.35rem;
+        color: $color-5;
+        text-shadow: 0 0px 1px $color-1;
+      }
+    }
+    h3 {
+      grid-area: 2;
+      font-family: $font-2;
+      font-size: 1.65rem;
+      @include verticalCenter;
+      justify-content: left;
+    }
+    img {
+      grid-area: 3;
+      object-fit: cover;
+      margin: 0 auto;
+      width: 100%;
+      height: 97%;
+      box-shadow: 0 2px 6px #333;
+      border-radius: 4px;
+      cursor: pointer;
+      @include verticalCenter;
+    }
+    .infos {
+      grid-area: 4;
+      color: $color-4;
+      cursor: pointer;
+      font-size: 1.5rem;
+      @include verticalCenter;
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .backGround {
+      position: absolute;
+      vertical-align: auto;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+      background-color: rgba(34, 34, 34, 0.382);
+      z-index: 1;
+      border-radius: 25px;
+    }
+
+    .modalContainer {
+      position: absolute;
+      vertical-align: auto;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+      @include verticalCenter;
+      .modal {
+        padding: 40px;
+        height: 400px;
+        width: 600px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: $color-1;
+        z-index: 2;
+
+        .modalTitle {
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+          h2 {
+            font-size: large;
+            font: $font-2;
+          }
+          b {
+            font-size: 20px;
+            color: $white;
+            cursor: pointer;
+            &:hover {
+              opacity: 0.6;
+              transform: scale(1.07);
+            }
+          }
+        }
+        a {
+          color: $color-5 !important;
+          &:hover {
+            color: $color-4 !important;
+          }
+        }
+        p {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 650px) and (min-width: 521px) {
+  .portfolioContent {
+    .project {
+      width: 49% !important;
+
+      i {
+        font-size: 1rem;
+      }
+    }
+    .infosContent {
+      width: 100% !important;
+    }
+  }
+}
+@media (max-width: 520px) {
+  .portfolioContent {
+    display: block;
+    .project {
+      width: 100% !important;
+
+      i {
+        font-size: 1rem;
+      }
+    }
+    .infosContent {
+      width: 100% !important;
+    }
+  }
+}
