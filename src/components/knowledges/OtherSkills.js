@@ -3,16 +3,16 @@ import React from "react";
 const OtherSkills = () => {
   return (
     <div className="otherSkills">
-      <h3>Autres compétences</h3>
+      <h3>Other Skills</h3>
       <div className="list">
         <div>
           <ul>
             <li>
-              <i className="fas fa-check-circle"></i>Fluent
+              <i className="fas fa-check-circle"></i>Fluent in English
             </li>
             <li>
-              <i className="fas fa-check-circle"></i>onChain programing
-              experience
+              <i className="fas fa-check-circle"></i>WebApp vulnerabilities
+              testing
             </li>
             <li>
               <i className="fas fa-check-circle"></i>Merkle proof / Private sale

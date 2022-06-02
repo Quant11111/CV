@@ -2,7 +2,7 @@
   .portfolioContent {
     width: 100%;
     display: grid;
-    height: 95vh;
+    min-height: $minHeight;
     position: relative;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 1fr;
@@ -31,6 +31,13 @@
       flex: 1;
       z-index: 2;
       @include verticalCenter;
+
+      .smallDisplay {
+        visibility: hidden;
+      }
+      .largeDisplay {
+        transform: translate(0, 10px);
+      }
 
       input[type="radio"] {
         visibility: hidden;
@@ -99,7 +106,7 @@
       padding: 0.3rem;
       box-shadow: $shadow;
       display: grid;
-      grid-template-rows: 15% 15% 55% 15%;
+      grid-template-rows: 15% 30% 40% 15%;
       grid-template-areas:
         "1"
         "2"
@@ -181,11 +188,12 @@
         margin-left: auto;
         background-color: $color-1;
         z-index: 2;
-        animation-name: popup;
-        animation-duration: 0.8s;
-        scale: (0);
+        animation: popup 0.5s ease-in-out;
 
         @keyframes popup {
+          from {
+            transform: scale(0);
+          }
           to {
             transform: scale(1);
           }
@@ -205,7 +213,7 @@
             cursor: pointer;
             &:hover {
               opacity: 0.6;
-              transform: scale(1.07);
+              transform: scale(1.2);
             }
           }
         }
@@ -223,7 +231,14 @@
   }
 }
 @media (max-width: 650px) and (min-width: 521px) {
+  .largeDisplay {
+    display: none;
+  }
+  .smallDisplay {
+    visibility: visible !important;
+  }
   .portfolioContent {
+    height: 85.5vh !important;
     .project {
       width: 49% !important;
 
@@ -237,7 +252,14 @@
   }
 }
 @media (max-width: 520px) {
+  .largeDisplay {
+    display: none;
+  }
+  .smallDisplay {
+    visibility: visible !important;
+  }
   .portfolioContent {
+    width: 100vw;
     display: block;
     .project {
       width: 100% !important;
@@ -247,7 +269,7 @@
       }
     }
     .infosContent {
-      width: 100% !important;
+      width: 90%;
     }
   }
 }

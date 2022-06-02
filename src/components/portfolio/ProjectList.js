@@ -7,10 +7,10 @@ class ProjectList extends Component {
   state = {
     projects: portfolioData,
     radios: [
-      { id: 1, value: "javascript" },
-      { id: 2, value: "html/css" },
-      { id: 3, value: "react" },
-      { id: 4, value: "solidity" },
+      { id: 1, value: "javascript", altvalue: "javaSc" },
+      { id: 2, value: "html/css", altvalue: "css" },
+      { id: 3, value: "react", altvalue: "react" },
+      { id: 4, value: "solidity", altvalue: "sol" },
     ],
     selectedRadio: "javascript",
   };
@@ -39,7 +39,10 @@ class ProjectList extends Component {
                     id={radio.value}
                     onChange={this.handleHadio}
                   />
-                  <label htmlFor={radio.value}>{radio.value}</label>
+                  <label htmlFor={radio.value}>
+                    <div className="largeDisplay">{radio.value}</div>
+                    <div className="smallDisplay">{radio.altvalue}</div>
+                  </label>
                 </li>
               );
             })}

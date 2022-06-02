@@ -24,7 +24,7 @@ $black: #333;
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
-$minHeight: 95vh;
+$minHeight: 98vh;
 
 @mixin verticalCenter {
   display: flex;
@@ -39,9 +39,10 @@ $minHeight: 95vh;
 }
 
 body {
-  margin: 1rem 0.4rem 0rem 0.4rem;
+  overflow: hidden;
+  margin: 0.4rem 0.4rem 0.4rem 0.4rem;
   max-width: 12000px;
-  height: 100vh;
+  height: 120vh;
   font-family: $font-1;
   color: $color-4;
   //background-color: $color-bg;
@@ -50,6 +51,9 @@ body {
     rgba(205, 250, 250, 1),
     rgba(5, 150, 170, 1)
   );
+  @media screen and (max-width: 850px) {
+    overflow: visible;
+  }
 }
 
 button {

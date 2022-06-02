@@ -7,25 +7,34 @@ const Experience = () => {
         <div>
           <h3>ISEP (Institut electronique de paris)</h3>
           <p>
-            Etudiant entrant en 4e année (2e année du cycle ingénieur)
-            Spécialité innovation et création d'entreprise
+            4rth grade student in ISEP (engenering school in Paris). Specialised
+            in inovation and business creation. I have been introduced thx to my
+            studies into the Web development word. Used to programming since
+            several years, i have recently grown a realy big interest for the
+            blockchain ecosystem and the technical revolutions it brings.
           </p>
         </div>
         <br />
         <div>
-          <h3>Contributeur BlockSwan</h3>
+          <h3>BlockSwan Contributor</h3>
           <p>
-            pqri fzioejfzpgj pfjzpfjz z jpzjt'zpjzpjz pjz' ptj
-            z'potjz'pojz'gp'gz'pi t zzpo'gz'p jpjpgoz'jgkz' , z'jtgz'pogjz'pg
-            ,pzg' jpoojz'pogj z'jgpigijz'gp i j'
+            Im part of a digital entity which will to promote blockchain
+            technology and help people understanding the purpose of such a
+            revolution. We built a website you can already visit, and willl be
+            glad to add you on our discord if you feel like learning more about
+            anything related to blockchain
           </p>
         </div>
         <br />
         <div>
           <h3>Stage de dev onChain Sinaps</h3>
           <p>
-            rorhzp fizjfo j'g zf'pjg z''gzg rigjepgj pgjepijggjpogj gpzojg
-            kgj"epvigj pggjpe jgpj ep jpz g neorghjzpogjzrrp pij zrpigejpij
+            Here I helped a startup to build here webApp and did mostly some
+            researches about how to make a dapp (decentralised app) from this
+            app. This is for this project that I built my first smart contracts
+            and I realy got hoocked by the infinite blockchain usecases that
+            came across my head at this time. In the end, I kept learning
+            Solidity after this internship.
           </p>
         </div>
       </div>

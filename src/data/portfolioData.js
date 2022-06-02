@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 1,
     name: "CV ;)",
-    languages: ["javascript", "html/css", "react"],
+    languages: ["javascript", "css", "react"],
     languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
     source: "http://www.github.com",
     info: "As a new devellper who started using github efficiently only weaks ago, I dont have many shiny project saved from my studies. Thats why I include this CV as a tiny project showing my ability to build a simple reactive application on my own.",
@@ -28,7 +28,7 @@ export const portfolioData = [
   },
   {
     id: 4,
-    name: "2dVersusFightingGame ",
+    name: "2D VSFightingGame ",
     languages: ["javascript", "php", "react"],
     languagesIcons: ["fab fa-js", "fab fa-php", "fab fa-react"],
     source: "http://www.github.com",
