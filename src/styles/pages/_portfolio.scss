@@ -86,6 +86,7 @@
     }
   }
   .projects {
+    border-radius: $borderRadius;
     margin-top: 2vh;
     grid-area: 2;
     display: flex;
@@ -238,16 +239,24 @@
     visibility: visible !important;
   }
   .portfolioContent {
-    height: 85.5vh !important;
-    .project {
-      width: 49% !important;
-
-      i {
-        font-size: 1rem;
+    .projects {
+      margin-top: 0.5vh;
+      height: 80vh;
+      overflow-y: scroll;
+      overflow-wrap: break-word;
+      &::-webkit-scrollbar {
+        display: none;
       }
-    }
-    .infosContent {
-      width: 100% !important;
+      .project {
+        width: 49% !important;
+
+        i {
+          font-size: 1rem;
+        }
+      }
+      .infosContent {
+        width: 100% !important;
+      }
     }
   }
 }
@@ -261,13 +270,23 @@
   .portfolioContent {
     width: 100vw;
     display: block;
-    .project {
-      width: 100% !important;
+    .projects {
+      margin-top: 0.5vh;
+      height: 80vh;
+      overflow-y: scroll;
+      overflow-wrap: break-word;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      .project {
+        width: 100% !important;
 
-      i {
-        font-size: 1rem;
+        i {
+          font-size: 1rem;
+        }
       }
     }
+
     .infosContent {
       width: 90%;
     }

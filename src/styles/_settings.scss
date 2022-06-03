@@ -42,7 +42,7 @@ body {
   overflow: hidden;
   margin: 0.4rem 0.4rem 0.4rem 0.4rem;
   max-width: 12000px;
-  height: 120vh;
+  height: 100vh;
   font-family: $font-1;
   color: $color-4;
   //background-color: $color-bg;
@@ -51,9 +51,6 @@ body {
     rgba(205, 250, 250, 1),
     rgba(5, 150, 170, 1)
   );
-  @media screen and (max-width: 850px) {
-    overflow: visible;
-  }
 }
 
 button {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { portfolioData } from "../../data/portfolioData";
+import { portfolioData } from "../../../data/portfolioData";
 
 import Project from "./Project";
 

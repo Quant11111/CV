@@ -2,8 +2,9 @@
   display: flex;
 
   .knowledgesContent {
+    border-radius: $borderRadius;
     margin-left: 0.4rem;
-    min-height: $minHeight;
+    height: 97.8vh;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -114,16 +115,11 @@
     .experience {
       grid-area: E;
       margin: 0 0 0.5rem 0.5rem;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 10% 1fr 1fr;
-      grid-template-areas:
-        "1"
-        "2"
-        "3";
-
-      h3 {
-        grid-area: 1;
+      display: block;
+      overflow-y: scroll;
+      overflow-wrap: break-word;
+      &::-webkit-scrollbar {
+        display: none;
       }
       h4 {
         font-size: 1.1rem;
@@ -214,6 +210,7 @@
   .knowledges {
     display: block;
     .knowledgesContent {
+      height: 85vh;
       margin-left: 0rem;
       h4 {
         font-size: 0.9rem !important;
@@ -229,10 +226,14 @@
   .knowledges {
     display: block;
     .knowledgesContent {
+      height: 85vh;
       margin-left: 0rem !important;
-      display: grid !important;
-      grid-template-columns: 1fr !important;
-      grid-template-rows: 1fr 1fr 180px 180px !important;
+      display: block;
+      overflow-y: scroll;
+      overflow-wrap: break-word;
+      &::-webkit-scrollbar {
+        display: none;
+      }
 
       .languagesFrameworks {
         padding: 2vh;
@@ -240,18 +241,14 @@
       }
 
       .languages {
-        grid-area: 1 !important;
       }
       .experience {
-        grid-area: 2 !important;
         margin-left: 0 !important;
       }
       .otherSkills {
-        grid-area: 3 !important;
         margin-right: 0 !important;
       }
       .hobbies {
-        grid-area: 4 !important;
         margin-top: 0.5rem !important;
       }
     }
