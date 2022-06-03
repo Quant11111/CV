@@ -87,8 +87,8 @@
   }
   .projects {
     border-radius: $borderRadius;
-    margin-top: 2vh;
-    grid-area: 2;
+    margin-top: 1vh;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -107,7 +107,7 @@
       padding: 0.3rem;
       box-shadow: $shadow;
       display: grid;
-      grid-template-rows: 15% 30% 40% 15%;
+      grid-template-rows: 8% 30% 47% 15%;
       grid-template-areas:
         "1"
         "2"
@@ -180,6 +180,7 @@
 
       @include verticalCenter;
       .modal {
+        box-shadow: 0 0 0 4px $color-3, 0 0 0 7px $color-1;
         padding: 40px;
         height: 400px;
         width: 600px;

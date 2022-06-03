@@ -15,9 +15,9 @@ $font-3: "Josefin Sans", serif;
 
 $color-1: #140d27;
 $color-2: rgb(230, 141, 134);
-$color-3: rgba(205, 250, 250, 1);
+$color-3: rgb(212, 249, 249);
 $color-4: rgb(247, 220, 103);
-$color-5: rgb(74, 204, 221);
+$color-5: rgb(127, 211, 222);
 $color-bg: #ffffff;
 $white: rgba(205, 250, 250, 1);
 $black: #333;
@@ -42,15 +42,11 @@ body {
   overflow: hidden;
   margin: 0.4rem 0.4rem 0.4rem 0.4rem;
   max-width: 12000px;
-  height: 100vh;
+  height: 100%;
   font-family: $font-1;
   color: $color-4;
   //background-color: $color-bg;
-  background: linear-gradient(
-    1deg,
-    rgba(205, 250, 250, 1),
-    rgba(5, 150, 170, 1)
-  );
+  background: rgb(163, 233, 233);
 }
 
 button {

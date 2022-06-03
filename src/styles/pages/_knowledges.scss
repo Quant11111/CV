@@ -41,6 +41,11 @@
       grid-template-areas:
         "L"
         "F";
+      overflow-y: scroll;
+      overflow-wrap: break-word;
+      &::-webkit-scrollbar {
+        display: none;
+      }
 
       .languageDisplay {
         grid-area: L;

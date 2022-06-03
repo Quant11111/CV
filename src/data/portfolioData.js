@@ -7,7 +7,7 @@ export const portfolioData = [
     source: "http://www.github.com",
     info: "As a new devellper who started using github efficiently only weaks ago, I dont have many shiny project saved from my studies. Thats why I include this CV as a tiny project showing my ability to build a simple reactive application on my own.",
     infofr: "",
-    picture: "./media/project1.JPG",
+    picture: "./media/cv.png",
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const portfolioData = [
     source: "http://www.github.com",
     info: "This project is a 2d fighting game which you can already try on your pc by donloading it through the github link. It was all about understanding key listener in videogames and training my Js developer skills.",
     infofr: "",
-    picture: "./media/project1.JPG",
+    picture: "./media/game.png",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const portfolioData = [
     source: "http://www.github.com",
     info: "A decentralized application where you can find freelances able to help building decentralised applications (graphist, dev, com,...). The real use of the application is to provide safe decentralized escrow contracts for their transactions. In the end, our purpose is to make this application fully decentralized by allowing users to join a Juge list by filling a QWC. This way, anyone will ve able so solve any disagreement by voting for the best solution. In the end of the trial, the juges who voted for the choosen solution share the transaction feez. If the transaction require no trial, the feez will then be almost inexistant.",
     infofr: "",
-    picture: "./media/project1.JPG",
+    picture: "./media/blockswanFamily.png",
   },
   {
     id: 6,
