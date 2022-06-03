@@ -8,30 +8,30 @@ const OtherSkills = () => {
         <div>
           <ul>
             <li>
-              <i className="fas fa-check-circle"></i>Fluent in English
+              <i className="fas fa-check-circle"></i> Fluent in English
             </li>
             <li>
-              <i className="fas fa-check-circle"></i>WebApp vulnerabilities
+              <i className="fas fa-check-circle"></i> WebApp vulnerabilities
               testing
             </li>
             <li>
-              <i className="fas fa-check-circle"></i>Merkle proof / Private sale
-              implementation
+              <i className="fas fa-check-circle"></i> Merkle proof / Private
+              sale implementation
             </li>
           </ul>
         </div>
         <div>
           <ul>
             <li>
-              <i className="fas fa-check-circle"></i>ICO / NFT collection
+              <i className="fas fa-check-circle"></i> ICO / NFT collection
               deployment
             </li>
             <li>
-              <i className="fas fa-check-circle"></i>Pear-programing (clear and
+              <i className="fas fa-check-circle"></i> Pear-programing (clear and
               commented code)
             </li>
             <li>
-              <i className="fas fa-check-circle"></i>GitHub
+              <i className="fas fa-check-circle"></i> GitHub
             </li>
           </ul>
         </div>

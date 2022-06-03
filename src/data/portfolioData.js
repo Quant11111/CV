@@ -5,7 +5,7 @@ export const portfolioData = [
     languages: ["javascript", "html/css", "react"],
     languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-react"],
     source: "http://www.github.com",
-    info: "As a new devellper who started using github efficiently only weaks ago, I dont have many shiny project saved from my studies. Thats why I include this CV as a tiny project showing my ability to build a simple reactive application on my own.",
+    info: "I include this CV as a tiny project showing my ability to build a simple responsive application on my own.",
     infofr: "",
     picture: "./media/cv.png",
   },

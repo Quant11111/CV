@@ -1,9 +1,9 @@
 import React from "react";
 import Navigation from "../../components/Navigation";
-import Languages from "../../components/knowledges/Languages";
-import Experience from "../../components/knowledges/Experience";
-import OtherSkills from "../../components/knowledges/OtherSkills";
-import Hobbies from "../../components/knowledges/Hobbies";
+import Languages from "./components/Languages";
+import Experience from "./components/Experience";
+import OtherSkills from "./components/OtherSkills";
+import Hobbies from "./components/Hobbies";
 
 const Knowledges = () => {
   return (
