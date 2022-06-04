@@ -2,7 +2,7 @@ import React from "react";
 import img from "../media/homepic.jpg";
 import { NavLink } from "react-router-dom";
 
-const Navigation = () => {
+const NavigationFr = () => {
   return (
     <div className="sidebar">
       <div className="id">
@@ -22,13 +22,13 @@ const Navigation = () => {
           <li>
             <NavLink exact to="/" activeClassName="navActive">
               <i className="fas fa-home"></i>
-              <span>Home</span>
+              <span>Accueil</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/Knowledge" activeClassName="navActive">
+            <NavLink exact to="/Knowledges" activeClassName="navActive">
               <i className="fas fa-mountain"></i>
-              <span>Skills</span>
+              <span>Conaissances</span>
             </NavLink>
           </li>
           <li>
@@ -90,4 +90,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default NavigationFr;

@@ -1,6 +1,6 @@
 import React from "react";
-import Navigation from "../components/Navigation";
-import ProjectList from "../components/portfolio/ProjectList";
+import Navigation from "../../components/Navigation";
+import ProjectList from "./components/ProjectList";
 
 const Portfolio = () => {
   return (

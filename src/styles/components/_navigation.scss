@@ -31,7 +31,7 @@
         width: 160px;
         height: 180px;
         border-radius: $borderRadius;
-        box-shadow: 0 0 0 4px $color-1, 0 0 0 7px $color-3;
+        box-shadow: 0 0 0 2px $color-1, 0 0 0 5px $color-3;
         color: $color-bg;
       }
       h3 {
@@ -46,6 +46,7 @@
   .navigation {
     grid-area: 2;
     padding: 2rem 1rem;
+    margin-left: 40px;
     transform: translateY(20px);
 
     ul {

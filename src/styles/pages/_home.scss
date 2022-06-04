@@ -8,6 +8,7 @@
     border-radius: $borderRadius;
     position: relative;
     overflow-y: scroll;
+    scroll-behavior: smooth;
 
     overflow-wrap: break-word;
     &::-webkit-scrollbar {
@@ -29,7 +30,8 @@
       display: block;
       position: absolute;
       top: 20%;
-      left: 13%;
+      left: 8%;
+      right: 5%;
       font-family: $font-1;
 
       h1 {
@@ -49,6 +51,7 @@
         a {
           font-size: 1.5rem;
           background: $color-5;
+          color: $color-1;
           padding: 1rem 2rem;
           margin: 2rem;
           border-radius: $borderRadius;
@@ -83,12 +86,20 @@
 
 @media screen and (max-width: 850px) {
   .homeContent {
+    min-height: 88.5vh !important;
     margin: 0 !important;
     h1 {
       font-size: 2.2rem !important;
+      text-align: center;
+      margin-right: 25px;
     }
     h2 {
       font-size: 1.1rem !important;
+      text-align: center;
+      margin-right: 25px;
+    }
+    p {
+      font-size: 1rem;
     }
   }
 }
@@ -102,6 +113,10 @@
     }
     .pdf {
       margin-top: 0;
+    }
+    p {
+      font-size: 1.2rem !important;
+      text-align: justify;
     }
   }
 }
