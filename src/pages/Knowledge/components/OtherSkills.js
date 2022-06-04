@@ -27,11 +27,11 @@ const OtherSkills = () => {
               deployment
             </li>
             <li>
-              <i className="fas fa-check-circle"></i> Pear-programing (clear and
-              commented code)
+              <i className="fas fa-check-circle"></i> Used to typeScript when it
+              comes to react in order to minimize vulnerabilities
             </li>
             <li>
-              <i className="fas fa-check-circle"></i> GitHub
+              <i className="fas fa-check-circle"></i> GitHub / Peer-Programing
             </li>
           </ul>
         </div>

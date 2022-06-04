@@ -5,11 +5,11 @@ import Experience from "./components/Experience";
 import OtherSkills from "./components/OtherSkills";
 import Hobbies from "./components/Hobbies";
 
-const Knowledges = () => {
+const Knowledge = () => {
   return (
-    <div className="knowledges">
+    <div className="knowledge">
       <Navigation />
-      <div className="knowledgesContent">
+      <div className="knowledgeContent">
         <Languages />
         <Experience />
         <OtherSkills />
@@ -19,4 +19,4 @@ const Knowledges = () => {
   );
 };
 
-export default Knowledges;
+export default Knowledge;
