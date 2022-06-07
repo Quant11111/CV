@@ -1,7 +1,7 @@
-.knowledges {
+.knowledge {
   display: flex;
 
-  .knowledgesContent {
+  .knowledgeContent {
     border-radius: $borderRadius;
     margin-left: 0.4rem;
     height: 97.8vh;
@@ -149,6 +149,11 @@
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
+      overflow-y: scroll;
+      overflow-wrap: break-word;
+      &::-webkit-scrollbar {
+        display: none;
+      }
 
       .list {
         display: flex;
@@ -171,6 +176,11 @@
     .hobbies {
       grid-area: H;
       padding-left: 1.5rem;
+      overflow-y: scroll;
+      overflow-wrap: break-word;
+      &::-webkit-scrollbar {
+        display: none;
+      }
 
       ul {
         height: 80%;
@@ -194,7 +204,7 @@
   }
 }
 @media screen and (max-width: 950px) {
-  .knowledgesContent {
+  .knowledgeContent {
     min-height: 88.5vh !important;
     h3 {
       font-size: 1.2rem !important;
@@ -212,9 +222,9 @@
   }
 }
 @media screen and (max-width: 850px) {
-  .knowledges {
+  .knowledge {
     display: block;
-    .knowledgesContent {
+    .knowledgeContent {
       height: 85vh;
       margin-left: 0rem;
       h4 {
@@ -230,7 +240,7 @@
 @media screen and (max-width: 500px) {
   .knowledges {
     display: block;
-    .knowledgesContent {
+    .knowledgeContent {
       height: 85vh;
       margin-left: 0rem !important;
       display: block;
@@ -245,8 +255,6 @@
         grid-template-rows: 1.5fr 0.8fr;
       }
 
-      .languages {
-      }
       .experience {
         margin-left: 0 !important;
       }

@@ -20,9 +20,12 @@ const Experience = () => {
           <p>
             Im part of a digital entity which will to promote blockchain
             technology and help people understanding the purpose of such a
-            revolution. We built a website you can already visit, and willl be
-            glad to add you on our discord if you feel like learning more about
-            anything related to blockchain
+            revolution. We built a{" "}
+            <a href="https://blockswan.finance/" title="Come check it out !">
+              website
+            </a>{" "}
+            you can already visit, and willl be glad to add you on our discord
+            if you feel like learning more about anything related to blockchain.
           </p>
         </div>
         <br />

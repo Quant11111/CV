@@ -7,22 +7,22 @@ const Hobbies = () => {
       <div className="list">
         <ul>
           <li>
-            <i className="fas fa-plane"></i>Voyages
+            <i className="fas fa-plane"></i>Travels
           </li>
           <li>
             <i className="fab fa-ethereum"></i>BlockChain
           </li>
           <li>
-            <i className="fas fa-euro-sign"></i>Investissement
+            <i className="fas fa-euro-sign"></i>Investment
           </li>
           <li>
-            <i className="fas fa-pen"></i>Dessin/Design
+            <i className="fas fa-pen"></i>Drawing/Design
           </li>
           <li>
             <i className="fas fa-book"></i>Mangas
           </li>
           <li>
-            <i className="fas fa-briefcase"></i>Entreprenariat
+            <i className="fas fa-briefcase"></i>Entrepreneurship
           </li>
         </ul>
       </div>

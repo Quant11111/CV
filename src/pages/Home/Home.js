@@ -20,18 +20,30 @@ const Home = () => {
             </a>
           </div>
           <div className="arrow">
-            <i className="fas fa-arrow-down"></i>
+            <a href="#mon_ancre">
+              <i className="fas fa-arrow-down"></i>
+            </a>
           </div>
 
           <div id="mon_ancre" className="info">
-            <h1> Missions recherchées</h1>
+            <h3>Currently looking for a 5-6 month internship</h3>
             <p>
-              ihqerhguerohgeroqighjetoineqhmgbnqmeohi
-              nvoeuruhgnoemhgjôeirhgjvoemrihgnvemorh
-              gnpoeimrgjôeirmhgnvouermhgnpv,oeimrshg
-              gjvmeoriilhgnvpeomrhgnvpeoumrfhgnvpoiem
-              rifhgjveoimfhgpeoioihgnpzosehgvôetihgôi
-              ehdgnvoieihgfjôeimrhgjvoerimfghveorifghj
+              <br />
+              I'm loocking for an internship starting in August-Septembre for
+              aproximatively 5-6 month. I have to get back to my engenering
+              studies by February the 2nd ; thats why I can't take a full-time
+              internship that would last until February. <br />
+              <br />
+              <br />
+            </p>
+            <h3> Missions wanted</h3>
+            <p>
+              <br />
+              As a young developer who started do build onchain a year ago, I
+              would love to find any mission/internship related to solidity
+              programing and/or smart-contracts integration. <br />
+              <br />
+              <br />
             </p>
           </div>
         </div>
