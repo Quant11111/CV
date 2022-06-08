@@ -9,7 +9,7 @@ const Contact = () => {
       <FrenchButton />
       <div className="contactContent">
         <div className="content">
-          <h1>N'hésitez pas à me contacter !</h1>
+          <h1>Feel free to contact me !</h1>
           <h2>
             {" "}
             lamagnere.quentin@gmail.com
