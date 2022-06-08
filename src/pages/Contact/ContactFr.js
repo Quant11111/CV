@@ -12,7 +12,7 @@ const ContactFr = () => {
           <h1>N'hésitez pas à me contacter !</h1>
           <h2>
             {" "}
-            lamagnere.quentin@gmail.com
+            Lamagnere.quentin@gmail.com
             <br /> Téléphone pro: 0635402450
           </h2>
 
