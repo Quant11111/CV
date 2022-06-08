@@ -46,9 +46,11 @@ const HomeFr = () => {
               trouver un stage/mission en lien avec la programmation solidity
               et/ou l'intégration de smart-contracts.
               <br />
+              <br />
               Je suis également disposé à accepter des offres liées au
               développement d'applications plus traditionnelles en
               react(typeScript ou non), html/css (scss ou non) et javascript.
+              <br />
               <br />
               Plus que motivé pour en apprendre plus sur le développement
               d'applications en ligne, j'ai déjà hâte de travailler avec vous
