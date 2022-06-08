@@ -17,28 +17,38 @@ const NavigationFr = () => {
         </div>
       </div>
 
+      <div className="SwitchLang">
+        <NavLink exact to="/" activeClassName="navActive">
+          <i
+            className="flag"
+            src={img}
+            title="Cliquez pour changer de langue"
+          ></i>
+        </NavLink>
+      </div>
+
       <div className="navigation">
         <ul>
           <li>
-            <NavLink exact to="/" activeClassName="navActive">
+            <NavLink exact to="/Fr" activeClassName="navActive">
               <i className="fas fa-home"></i>
               <span>Accueil</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/Knowledges" activeClassName="navActive">
+            <NavLink exact to="/KnowledgeFr" activeClassName="navActive">
               <i className="fas fa-mountain"></i>
-              <span>Conaissances</span>
+              <span>Compétences</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/Portfolio" activeClassName="navActive">
+            <NavLink exact to="/PortfolioFr" activeClassName="navActive">
               <i className="fas fa-images"></i>
               <span>Portfolio</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/Contact" activeClassName="navActive">
+            <NavLink exact to="/ContactFr" activeClassName="navActive">
               <i className="fas fa-envelope"></i>
               <span>Contact</span>
             </NavLink>

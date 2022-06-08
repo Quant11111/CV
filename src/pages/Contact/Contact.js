@@ -1,17 +1,19 @@
 import React from "react";
+import FrenchButton from "../../components/FrenchButton";
 import Navigation from "../../components/Navigation";
 
 const Contact = () => {
   return (
     <div className="contact">
       <Navigation />
+      <FrenchButton />
       <div className="contactContent">
         <div className="content">
-          <h1>N'hésitez pas à me contacter !</h1>
+          <h1>Feel free to contact me !</h1>
           <h2>
             {" "}
-            lamagnere.quentin@gmail.com
-            <br /> Téléphone pro: 0635402450
+            Lamagnere.quentin@gmail.com
+            <br /> Phone number: 0635402450
           </h2>
 
           <div className="socialNetwork">

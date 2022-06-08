@@ -134,6 +134,12 @@
         color: $color-3;
         padding: 0.5rem 0 0.5rem 1rem;
       }
+      a {
+        color: $color-5;
+        &:hover {
+          color: $color-4;
+        }
+      }
       p {
         text-align: justify;
         padding: 0 1rem;

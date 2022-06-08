@@ -1,13 +1,13 @@
 import React from "react";
 
-const ProgressBar = (props) => {
+const ProgressBarFr = (props) => {
   return (
     <div className={props.className}>
       <h3>{props.title}</h3>
       <div className="years">
-        <span>experience :</span>
-        <span>1 year </span>
-        <span>2 years </span>
+        <span>Années d'expérience :</span>
+        <span>1 an </span>
+        <span>2 ans </span>
       </div>
 
       <div>
@@ -27,4 +27,4 @@ const ProgressBar = (props) => {
   );
 };
 
-export default ProgressBar;
+export default ProgressBarFr;
