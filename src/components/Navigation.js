@@ -20,7 +20,7 @@ const Navigation = () => {
       <div className="navigation">
         <ul>
           <li>
-            <NavLink exact to="/CV" activeClassName="navActive">
+            <NavLink exact to="/" activeClassName="navActive">
               <i className="fas fa-home"></i>
               <span>Home</span>
             </NavLink>

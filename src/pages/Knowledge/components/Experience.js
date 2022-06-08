@@ -32,7 +32,7 @@ const Experience = () => {
         <div>
           <h3>Dev Internship Sinaps</h3>
           <p>
-            Here I helped a startup to build here webApp and did mostly some
+            Here I helped a startup to build its webApp and did mostly some
             researches about how to make a dapp (decentralised app) from this
             app. This is for this project that I built my first smart contracts
             and I realy got hoocked by the infinite blockchain usecases that

@@ -14,7 +14,7 @@ class Project extends Component {
   render() {
     console.log(this.props);
 
-    let { name, languagesIcons, source, info, picture } = this.props.item;
+    let { name, languagesIcons, source, infofr, picture } = this.props.item;
 
     return (
       <div className="project">
@@ -46,7 +46,7 @@ class Project extends Component {
                     <br />
                     <br />
                   </div>
-                  <p>{info}</p>
+                  <p>{infofr}</p>
                   <br />
                 </div>
               </div>
