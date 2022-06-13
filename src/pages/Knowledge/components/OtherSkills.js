@@ -11,8 +11,8 @@ const OtherSkills = () => {
               <i className="fas fa-check-circle"></i> Fluent in English
             </li>
             <li>
-              <i className="fas fa-check-circle"></i> WebApp vulnerabilities
-              testing
+              <i className="fas fa-check-circle"></i> Hosting and deployment for
+              small app
             </li>
             <li>
               <i className="fas fa-check-circle"></i> Merkle proof / Private

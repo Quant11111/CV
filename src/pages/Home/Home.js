@@ -16,15 +16,16 @@ const Home = () => {
           <h2>
             Engenering Studies <br /> 4rth year over 5
           </h2>
-          <div className="pdf">
+          {/* <div className="pdf">
             <a href="/ViewPdf" target="_blank">
               Mon CV pdf
             </a>
-          </div>
+          </div> */}
+          <FrenchButton />
           <div className="arrow">
-            <a href="#mon_ancre">
+            <div>
               <i className="fas fa-arrow-down"></i>
-            </a>
+            </div>
           </div>
 
           <div id="mon_ancre" className="info">
@@ -41,7 +42,7 @@ const Home = () => {
             <h3> Missions wanted</h3>
             <p>
               <br />
-              As a young developer who started do build onchain a year ago, I
+              As a young developer who started to build onchain a year ago, I
               would love to find any mission/internship related to solidity
               programing and/or smart-contracts integration. <br />
               <br />

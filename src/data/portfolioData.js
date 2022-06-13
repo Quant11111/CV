@@ -5,7 +5,7 @@ export const portfolioData = [
     languages: ["javascript", "html/css", "react"],
     languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-react"],
     source: "http://www.github.com",
-    info: "As a new devellper who started using github efficiently only weaks ago, I dont have many shiny project saved from my studies. Thats why I include this CV as a tiny project showing my ability to build a simple reactive application on my own.",
+    info: "Small react project that I use as my personal CV.",
     infofr:
       "Petit projet react faisant ofice de CV. J'espère que vous trouvez votre navigation agréable !",
     picture: "./media/cv.png",
@@ -56,7 +56,7 @@ export const portfolioData = [
   {
     id: 6,
     name: "test.io",
-    languages: ["javascript", "react", "html/css", "solidity"],
+    languages: [],
     languagesIcons: [
       "fab fa-js",
       "fab fa-react",

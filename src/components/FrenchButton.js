@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const FrenchButton = () => {
   return (
-    <div className="switchLangFr">
+    <div className="switchLang">
       <NavLink exact to="/Fr" activeClassName="navActive">
         <img
           className="flagFr"

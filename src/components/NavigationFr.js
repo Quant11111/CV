@@ -69,7 +69,7 @@ const NavigationFr = () => {
           </li>
           <li>
             <a
-              href="https://discord.com/"
+              href="https://discord.com/channels/882988878082998343/914252238174715955"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -87,7 +87,7 @@ const NavigationFr = () => {
           </li>
           <li>
             <a
-              href="https://github.com/"
+              href="https://github.com/Quant11111"
               target="_blank"
               rel="noopener noreferrer"
             >

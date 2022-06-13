@@ -16,15 +16,16 @@ const HomeFr = () => {
           <h2>
             Dévelopeur Cursus Ingénieur <br /> niveau licence
           </h2>
-          <div className="pdf">
+          {/* <div className="pdf">
             <a href="/ViewPdfFr" target="_blank">
               Mon CV pdf
             </a>
-          </div>
+          </div> */}
+          <EnglishButton />
           <div className="arrow">
-            <a href="#mon_ancre">
+            <div>
               <i className="fas fa-arrow-down"></i>
-            </a>
+            </div>
           </div>
 
           <div id="mon_ancre" className="info">

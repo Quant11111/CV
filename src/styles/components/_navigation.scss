@@ -136,7 +136,9 @@
     min-height: 50px;
     margin-bottom: 0.2rem;
     width: 100%;
-
+    .flagFr {
+      display: none;
+    }
     .id,
     .socialNetwork {
       display: none;
@@ -160,6 +162,9 @@
 }
 @media screen and (max-width: 580px) {
   .sidebar {
+    .flagFr {
+      display: none;
+    }
     ul {
       justify-content: space-around !important;
 

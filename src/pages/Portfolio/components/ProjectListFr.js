@@ -7,7 +7,7 @@ class ProjectListFr extends Component {
   state = {
     projects: portfolioData,
     radios: [
-      { id: 1, value: "javascript", altvalue: "javaSc" },
+      { id: 1, value: "javascript", altvalue: "js" },
       { id: 2, value: "html/css", altvalue: "css" },
       { id: 3, value: "react", altvalue: "react" },
       { id: 4, value: "solidity", altvalue: "sol" },

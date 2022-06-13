@@ -33,6 +33,12 @@
       left: 8%;
       right: 5%;
       font-family: $font-1;
+      border-radius: $borderRadius;
+
+      .switchLang {
+        visibility: hidden;
+        transform: translate(40px, -210px);
+      }
 
       h1 {
         font-size: 5rem;
@@ -88,6 +94,12 @@
   .homeContent {
     min-height: 88.5vh !important;
     margin: 0 !important;
+    .content {
+      .switchLang {
+        visibility: visible !important;
+      }
+    }
+
     h1 {
       font-size: 2.2rem !important;
       text-align: center;
@@ -105,9 +117,14 @@
 }
 @media screen and (max-width: 580px) {
   .homeContent {
+    background: $color-1 !important;
+    .switchLang {
+      visibility: visible !important;
+    }
     h1 {
       font-size: 2.2rem !important;
     }
+
     h2 {
       font-size: 1.1rem !important;
     }

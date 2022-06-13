@@ -262,6 +262,11 @@
   }
 }
 @media (max-width: 520px) {
+  .radioDisplay {
+    li {
+      font-size: 0.78rem !important;
+    }
+  }
   .largeDisplay {
     display: none;
   }
