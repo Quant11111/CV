@@ -4,7 +4,7 @@ export const portfolioData = [
     name: "This CV",
     languages: ["javascript", "html/css", "react"],
     languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-react"],
-    source: "http://www.github.com",
+    source: "https://github.com/Quant11111/CV",
     info: "Small react project that I use as my personal CV.",
     infofr:
       "Petit projet react faisant ofice de CV. J'espère que vous trouvez votre navigation agréable !",
@@ -25,7 +25,7 @@ export const portfolioData = [
     name: "Escrow Transaction Factory",
     languages: ["solidity"],
     languagesIcons: ["fab fa-ethereum"],
-    source: "http://www.github.com",
+    source: "https://github.com/Quant11111/FamilyContracts",
     info: "Factory generating Escrow Transactions. Here, any disagreement can lead to a trial solved by different juges who vote to solve the situation and share the tryal fees. THis system use a merkle proof to verifie that a juge is a member of our juge list (added after filling a KYC in order to avoid a single persone to vote several times for the same trial). The merkle proof is frequently use to avoid storing a large array into the blockchain but still keeping a short proof able to verrifie if an element (address) was part of the array (ex: for whitelists). This way, the verrification is gaz efficient even if the list is massive",
     infofr:
       "Usine à transaction escrow. Ici, tout litige donne lieu à un procès, lui même résolu par différents juges qui votent pour une solution. Les juges votant pour la solution choisie partagent les frais de transaction. Les juges sont ajoutés à la jugeList par notre team suite à leur demande et un KYC rempli afin d'éviter qu'une même personne possède plusieurs voix. La verrification  d'appartenance à la jugeList se fait au moyen d'un arbre de merkle dont seule la root est stockée onchain.",
