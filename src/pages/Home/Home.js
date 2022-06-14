@@ -47,8 +47,8 @@ const Home = () => {
               programing and/or smart-contracts integration. <br />
               <br />
               I'm also willing to accept offers related to more traditional
-              webapp using react(typeScript or not), html/css(scss or not) and
-              javascript.
+              webapp development using react, html/css(scss) JavaScript or
+              TypeScript.
               <br />
               <br />
               Motivated to learn even more about webDev, I'm already looking
